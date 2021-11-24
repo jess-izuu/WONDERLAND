@@ -4,7 +4,7 @@ window.addEventListener('scroll', fixNav)
 function fixNav() {
   if (window.scrollY > nav.offsetHeight + 150) {
     nav.classList.add('active')
-    location.href = '../user/user.html'
+    location.href = 'user.html'
   } else {
     nav.classList.remove('active')
   }
