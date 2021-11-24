@@ -46,7 +46,7 @@ rightBtn.addEventListener('click', () => {
   }
 
   if (activeSlide > 2) {
-    location.href = '../user/user.html'
+    location.href = 'user.html'
   }
 
   setBgToBody()
@@ -62,7 +62,7 @@ leftBtn.addEventListener('click', () => {
   }
 
   if (activeSlide > 3) {
-    location.href = '../user/user.html'
+    location.href = 'user.html'
   }
 
   setBgToBody()
@@ -77,7 +77,7 @@ function setActiveSlide() {
 
 document.body.addEventListener('dblclick', function () {
   // createHeart(activeSlide)
-  location.href = '../user/user.html'
+  location.href = 'user.html'
   console.log(activeSlide)
 })
 
